@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/tamanneup/publictoiletserver.git"
+    "url": "git+ssh://git@github.com:tamanneupane/toilet-server.git"
   },
   "author": "Taman Neupane",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/tamanneup/publictoiletserver#readme",
+  "license": "MIT",
+  "homepage": "https://github.com/tamanneupane/toilet-server",
   "dependencies": {
     "config": "^2.0.1",
     "express": "^4.16.3",
