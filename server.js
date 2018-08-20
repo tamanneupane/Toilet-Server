@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 
 app.get('/test', function(req, res) {
-    res.send('Welcome to toilet server');
+    res.send('Welcome to toilet server for this time');
 })
 
 app.use('/', allRoutes);
