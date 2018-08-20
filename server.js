@@ -16,6 +16,10 @@ app.get('/test', function(req, res) {
     res.send('Welcome to toilet server for this time');
 })
 
+app.get('/testing', function(req, res) {
+    res.send('Welcome to toilet server for this time');
+})
+
 app.use('/', allRoutes);
 
 app.listen(config.server.port, function() {
