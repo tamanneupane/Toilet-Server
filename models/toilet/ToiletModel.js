@@ -27,6 +27,12 @@ var ToiletSchema= new Schema({
 
 var ToiletModel = mongoose.model('toilet_schema',ToiletSchema);
 
+var addToilet = function(toilet,callback){
+    toilet.save(callback);
+};
+
+
 module.exports = {
-    ToiletModel
+    ToiletModel,
+    addToilet
 }
