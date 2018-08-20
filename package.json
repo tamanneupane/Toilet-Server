@@ -4,8 +4,8 @@
   "description": "This is node server application for our toilet app.",
   "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha --exit"
+    "start": "node server.js",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
