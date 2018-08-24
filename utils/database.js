@@ -3,7 +3,7 @@ var mongoose = require( 'mongoose' );
 const logger = require('./logger');
 
 // Build the connection string 
-var dbURI = 'mongodb://localhost:27017/ConnectionTest'; 
+var dbURI = 'mongodb://localhost:27017/toiletdb'; 
 
 // Create the database connection 
 mongoose.connect(dbURI, { useNewUrlParser: true }); 

@@ -18,10 +18,10 @@ var ToiletSchema= new Schema({
          }
        },
        rating :[
-            rate : Number
+            Number
        ],
        report : [
-           reason : String
+            String
        ]
     },{ timestamps: { createdAt: 'created_at' } },{collection:'toilet_schema'});
 
@@ -30,7 +30,6 @@ var ToiletModel = mongoose.model('toilet_schema',ToiletSchema);
 var addToilet = function(toilet,callback){
     toilet.save(callback);
 };
-
 
 module.exports = {
     ToiletModel,
